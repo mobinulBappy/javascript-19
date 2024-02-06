@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul.ol{
+    list-style-type: none;
+}
+body{
+    background: #d1c026;  /* fallback for old browsers */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.colok{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid rgb(255,255,255,0.5);
+    border-radius: 12px;
+    padding: 10px;
+    background: rgb(255,255,255,0.5);
+}
+.colok_card{
+    padding: 0 10PX;
+}
+.colok h2{
+    font-size: 45px;
+    color: #111;
+}
+.colok span{
+    font-size: 30px;
+}
+
+
+>canvas{
+    width="400" 
+    height="400"
+    style="background-color:#333"
+}
+
+
